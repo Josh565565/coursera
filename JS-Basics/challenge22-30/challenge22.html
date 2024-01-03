@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript event challenge: challenge 22</h1>
+    <p>here is a paragraph of text</p>
+    <button>Turn green Dammit!</button>
+
+    <script>
+        const button = document.querySelector('button');
+        const paragraph = document.querySelector('p');
+
+        button.addEventListener('click', () => {
+            paragraph.style.color = 'green';
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript event challenge: challenge 22</h1>
+    <div>
+        <p>here is a paragraph of text</p>
+    </div>
+    
+    <p>here is another paragraph of text</p>
+    <p>here is a third of text</p>
+    <button>Add a paragraph</button>
+
+    <script>
+        const myDiv = document.querySelector('div');
+        //const paragraph = document.querySelectorAll('p');
+        const button = document.querySelector('button');
+
+        button.addEventListener('click', () => {
+            var myP = document.createElement('p');
+            myP.textContent = 'A new paragraph';
+            myDiv.appendChild(myP);
+        });
+    </script>
+    
+</body>
+</html>

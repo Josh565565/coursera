@@ -1,0 +1,17 @@
+div{
+    /* display: inline; */
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    
+}
+span{
+    background-color: blue;
+    /* width: 200px; */
+    /* height: 200px; */
+    padding: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    /* display: inline; */
+}

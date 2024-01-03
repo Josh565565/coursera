@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basic Challenges: Challenge 1</title>
+</head>
+<body>
+    <h1>JavaScript Basic Challenges</h1>
+    <h2>Challenge 1</h2>
+    
+    <script>
+        var firstName = "Joshua";
+        var lastName = "Okwor";
+        var adjective = "amazing";
+        //var name = prompt("What is your name?");
+        var number = prompt("Enter a whole number");
+        //var number1 = prompt("Enter a first number..");
+        //var number2 = prompt("Enter a second number..");
+
+        //var number = parseInt(number1) + parseInt(number2);
+        //alert(`The sum of ${number1} + ${number2} is ${number}`);
+        //console.log(number);
+
+       if (number < 10) {
+            console.log("You entered a number smaller than 10")
+            for(i = 0; i < 10; i++) {
+                if (number == i) {
+                    console.log(`Here is a ${i} <-- this is your number`)
+                } else {
+                    console.log(`Here is a ${i}`)
+                }
+            }
+        }else if (number > 9) {
+            console.log("You entered a big number");
+        }
+        else {
+            console.log("ERROR! You did't enter a whole number");
+        }
+
+        //console.log(`Hello ${name}!, and welcome to my page`);
+        //console.log(`we know that ${firstName} ${lastName} is an ${adjective} person`);
+        //console.log(firstName);
+        //console.log(lastName);
+    </script>
+</body>
+</html>
